@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
-import Annotation from './Annotation'
 
 export default class FourOFour extends Component {
+
+    componentDidMount() {
+        document.title = '404 Page Not Found - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+    }
+    
     render() {
         return(
             <div id="404">

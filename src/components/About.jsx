@@ -3,6 +3,10 @@ import Annotation from './Annotation'
 import Tag from './Tag'
 
 export default class Studao extends Component {
+    componentDidMount() {
+        document.title = 'About Me - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+    }
+
     render() {
         return(
             <article id="about">
@@ -15,7 +19,7 @@ export default class Studao extends Component {
                                 </h1>
                             </div>
                             <div className="column is-narrow">
-                            <img src={process.env.PUBLIC_URL + '/images/about/me-in-a-circle-01.png'} alt="Talal Munzar's picture of his face surrouned by sketch doodles relevant to the UI/UX field." style={{ width: 250}} />
+                            <img src={process.env.PUBLIC_URL + '/images/about/me-in-a-circle-01.png'} alt="Talal Munzar's face surrouned by sketch doodles relevant to the UI/UX field." style={{ width: 250}} />
                             </div>
                         </div>
 
@@ -99,7 +103,7 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered">
                             <div className="column is-offset-1 is-5">
                                 <p>
-                                One of my biggest interests is teaching. I have had great success as a graduate teaching assistant for several programming courses at the University of Maryland. I even co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank">research paper</a> on teaching computer programming using block-based methods.
+                                One of my biggest interests is teaching. I have had great success as a graduate teaching assistant for several programming courses at the University of Maryland. I even co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank" rel="noopener noreferrer">research paper</a> on teaching computer programming using block-based methods.
                                 </p>
                             </div>
                             <div className="column is-2 relative">
@@ -127,7 +131,7 @@ export default class Studao extends Component {
                             <div className="column is-5">
                                 <p>
                                 I am fascinated by social media’s impact on society, especially misinformation and how it affects the
-                                world. I worked on <a href="https://www.ideals.illinois.edu/handle/2142/103358" target="_blank">a graduate school project</a> where I performed an analysis of fake news networks.</p>
+                                world. I worked on <a href="https://www.ideals.illinois.edu/handle/2142/103358" target="_blank" rel="noopener noreferrer">a graduate school project</a> where I performed an analysis of fake news networks.</p>
                             </div>
                         </div>
 
@@ -141,7 +145,7 @@ export default class Studao extends Component {
 
                         <div className="columns">
                             <div className="column is-2">
-                                <img src={process.env.PUBLIC_URL + '/images/about/research-skills-doodle-01.png' } />
+                                <img src={process.env.PUBLIC_URL + '/images/about/research-skills-doodle-01.png' } alt="A doodle of user research related images (a bulb, a clipboard, a stopwatch, a manifying glass)" />
                             </div>
                             <div className="column is-6">
                                 <h3>Research & Ideation</h3>
@@ -158,7 +162,7 @@ export default class Studao extends Component {
 
                         <div className="columns margin-top-50-mid">
                             <div className="column is-2">
-                                <img src={process.env.PUBLIC_URL + '/images/about/design-skills-doodle-01.png' } />
+                                <img src={process.env.PUBLIC_URL + '/images/about/design-skills-doodle-01.png' } alt="A doodle of design tool related icons (a Figma icon, a SketchApp icon, a pencil, a digital pen-tool) " />
                             </div>
                             <div className="column is-6">
                                 <h3>Design</h3>
@@ -177,7 +181,7 @@ export default class Studao extends Component {
 
                         <div className="columns margin-top-50-mid">
                             <div className="column is-2">
-                                <img src={process.env.PUBLIC_URL + '/images/about/engineering-skills-doodle-01.png' } />
+                                <img src={process.env.PUBLIC_URL + '/images/about/engineering-skills-doodle-01.png' } alt="A doodle of software engineering related icons (ReactJs icon, VueJS icon, an icon depicting coding, a finger tap)" />
                             </div>
                             <div className="column is-6">
                                 <h3>Engineering</h3>

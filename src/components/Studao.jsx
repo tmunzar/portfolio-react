@@ -4,6 +4,10 @@ import ImageModal from './ImageModal'
 import Tag from './Tag'
 
 export default class Studao extends Component {
+    componentDidMount() {
+        document.title = 'Designing an online learning platform for Independent Filmmakers - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+    }
+
     render() {
         return(
             <article>
@@ -315,7 +319,7 @@ export default class Studao extends Component {
                                 <h2>High Fidelity Prototype</h2>
                                 <p>
                                 Once we validated our design via the lo-fi prototype testing, we set out to make a final high fidelity design and producing an interactive online prototype as part of the final deliverables of the project.
-                                Below is a preview. You can also view the working prototype <a>here</a>.
+                                Below is a preview. You can also view the working prototype <a className="button" href="https://projects.invisionapp.com/share/SWS3X9ODK4E#/screens/364666372_Value_Proposition" target="_blank" rel="noopener noreferrer">here</a>.
                                 </p>
                             </div>
                         </div>
@@ -336,7 +340,7 @@ export default class Studao extends Component {
                         </div>
                         <div className="columns is-reverse is-gapless">
                             <div className="column is-3">
-                                <a className="button" href="https://projects.invisionapp.com/share/SWS3X9ODK4E#/screens/364666372_Value_Proposition" target="_blank">
+                                <a className="button" href="https://projects.invisionapp.com/share/SWS3X9ODK4E#/screens/364666372_Value_Proposition" target="_blank" rel="noopener noreferrer">
                                     Go to InVision Prototype
                                 </a>
                             </div>

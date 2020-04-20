@@ -36,7 +36,7 @@ export default class Image extends Component {
                 >
                     <div className="modal image-modal is-active">
                         <div className="modal-background" onClick={this.closeModal}></div>
-                        <div className="modal-content" style={{backgroundColor: '#fff', textAlign:'center', padding: 20}}>
+                        <div className="modal-content">
                             <img src={this.props.src} alt={this.props.alt} />
                         </div>
                         <button className="modal-close is-large" aria-label="close" onClick={this.closeModal}></button>

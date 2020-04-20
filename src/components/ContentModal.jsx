@@ -22,7 +22,7 @@ export default class ContentModal extends Component {
     render() {
         return(
             <>
-                <a href="#" className="button column is-4-desktop is-6-tablet" onClick={this.openModal}>View more info</a>
+                <button className="button column is-4-desktop is-6-tablet" onClick={this.openModal}>{this.props.buttonText}</button>
                 <CSSTransition 
                         in={this.state.modalOpen}
                         timeout={300}
@@ -31,7 +31,7 @@ export default class ContentModal extends Component {
                 >
                     <div className="modal content-modal is-active">
                         <div className="modal-background" onClick={this.closeModal}></div>
-                            <div className="modal-content" style={{backgroundColor: '#fff', padding: 20}}>
+                            <div className="modal-content">
                                 { this.props.children }
                             </div>
                         <button className="modal-close is-large" aria-label="close" onClick={this.closeModal}></button>

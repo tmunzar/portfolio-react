@@ -33,7 +33,7 @@ export default class Footer extends Component {
                                         linkedin
                                     </span>
                                 </a>
-                                <a href="https://twitter.com/tmunzar" rel="noopener noreferrer">
+                                <a href="https://twitter.com/tmunzar" target="_blank" rel="noopener noreferrer">
                                     <span>
                                         <img className="icon birdy" src={process.env.PUBLIC_URL + '/images/birdy-doodle-01.png'} alt="linkedin doodle" />
                                         twitter
@@ -83,11 +83,11 @@ export default class Footer extends Component {
                     <div className="columns is-centered">
                         <div className="column source">
                             <p>
-                                This website is carefully crafted using pen & paper, figma, react, vivus, among other things.
+                                This website is carefully crafted using pen & paper, figma, react, vivus.js, among other things.
                             </p>
                             <p>
-                                Find the source code <a href="#">here</a>.
-                                <img src={process.env.PUBLIC_URL + '/images/octo-cat-01.png'} style={{width:30, paddingTop:5}} />
+                                Find the source code <a href="https://github.com/tmunzar/portfolio-react" target="_blank" rel="noopener noreferrer">here</a>.
+                                <img src={process.env.PUBLIC_URL + '/images/octo-cat-01.png'} style={{width:30, paddingTop:5}} alt="A sketched doodle of the Github OctoCat icon" />
                             </p>
                         </div>
                     </div>

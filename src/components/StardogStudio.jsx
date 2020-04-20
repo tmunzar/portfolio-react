@@ -4,6 +4,11 @@ import ImageModal from './ImageModal'
 import Tag from './Tag'
 
 export default class StardogStudio extends Component {
+
+    componentDidMount() {
+        document.title = 'Doing UX in a B2B environment for a technical audience - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+    }
+
     render() {
         return (
             <article>
@@ -530,7 +535,7 @@ export default class StardogStudio extends Component {
                         </div>
                         <div className="columns is-reverse">
                             <div className="column is-3">
-                                <a className="button" href="https://www.stardog.com/studio/" target="_blank">
+                            <a className="button" href="https://www.stardog.com/studio/" target="_blank" rel="noopener noreferrer">
                                     Go to Stardog Studio
                                 </a>
                             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Vivus from 'vivus'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default class MainNav extends Component {
     componentDidMount() {
@@ -15,7 +15,7 @@ export default class MainNav extends Component {
     render() {
         return (
             <div id="main-nav">
-                <Link to="/">
+                <NavLink to="/">
                     <svg id="logo-svg" width="140" height="24" viewBox="0 0 140 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg" className="logo">
                         <path className="at-symbol"
@@ -43,13 +43,13 @@ export default class MainNav extends Component {
                             d="M127.813 19V18.72L128.233 18.608C128.606 18.496 128.858 18.328 128.989 18.104C129.138 17.88 129.213 17.5907 129.213 17.236V8.47202C129.213 8.06135 129.138 7.76269 128.989 7.57602C128.858 7.37069 128.606 7.23069 128.233 7.15602L127.813 7.04402V6.76402L132.629 5.14002L132.909 5.42002L133.161 7.82802V8.05202C133.422 7.52935 133.758 7.05335 134.169 6.62402C134.598 6.17602 135.065 5.81202 135.569 5.53202C136.092 5.25202 136.605 5.11202 137.109 5.11202C137.818 5.11202 138.36 5.30802 138.733 5.70002C139.106 6.09202 139.293 6.58669 139.293 7.18402C139.293 7.81869 139.106 8.31335 138.733 8.66802C138.378 9.00402 137.949 9.17202 137.445 9.17202C136.661 9.17202 135.97 8.78002 135.373 7.99602L135.317 7.94002C135.13 7.67869 134.916 7.53869 134.673 7.52002C134.43 7.48269 134.206 7.59469 134.001 7.85602C133.814 8.02402 133.656 8.22935 133.525 8.47202C133.413 8.69602 133.301 8.95735 133.189 9.25602V17.068C133.189 17.8147 133.516 18.2814 134.169 18.468L135.065 18.72V19H127.813Z"
                             fill="black" />
                     </svg>
-                </Link>
+                </NavLink>
                 <nav>
-                    <Link to="/" className="hide-for-mobile">Home</Link>
-                    <Link to="/about">About</Link>
+                    <NavLink to="/" exact={true} activeClassName="active" className="hide-for-mobile">Home</NavLink>
+                    <NavLink to="/about" exact={true} activeClassName="active">About</NavLink>
                     {/* <Link to="/resume">Resume</Link> */}
                     <a href="mailto:tmunzar@gmail.com">Email</a>
-                    <a href="https://www.linkedin.com/in/tmunzar/" target="_blank">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/tmunzar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </nav>
             </div>
         )

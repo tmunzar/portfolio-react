@@ -85,6 +85,8 @@ a.button, button.button {
   border-radius: 2px;
   text-decoration: none;
   font-size: 18px;
+  font-family: $body-font-family;
+  cursor: pointer;
   &:hover {
     background-color: darken($color-primary, 10%);
   }
@@ -99,6 +101,11 @@ img {
   height: auto;
   &.has-modal {
     cursor: pointer;
+    transition: .1s box-shadow linear, .1s transform linear;
+    &:hover {
+      box-shadow: 0 0 10px #aaa;
+      transform: scale(1.01);
+    }
   }
 }
 
@@ -107,6 +114,24 @@ img {
 }
 .text-right {
   text-align: right;
+}
+
+.modal {
+  &.content-modal {
+    .modal-content {
+      background-color: $color-background-light;
+      padding: 40px 80px;
+      width: 75%;
+    }
+  }
+
+  &.image-modal {
+    .modal-content {
+      background-color: '#fff';
+      text-align:'center';
+      padding: 20;
+    }
+  }
 }
 
 .container {
@@ -203,6 +228,9 @@ img {
       }
       &:hover {
         text-decoration: underline;
+      }
+      &.active {
+        color: $color-primary-dark;
       }
     }
   }
