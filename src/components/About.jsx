@@ -143,8 +143,8 @@ export default class Studao extends Component {
                         </div>
 
                         <div className="columns">
-                            <div className="column is-2">
-                                <img src={process.env.PUBLIC_URL + '/images/about/research-skills-doodle-01.png' } alt="A doodle of user research related images (a bulb, a clipboard, a stopwatch, a manifying glass)" />
+                            <div className="column is-2 text-center">
+                                <img src={process.env.PUBLIC_URL + '/images/about/research-skills-doodle-01.png' } alt="A doodle of user research related images (a bulb, a clipboard, a stopwatch, a manifying glass)" style={{width:160}} />
                             </div>
                             <div className="column is-6">
                                 <h3>Research & Ideation</h3>
@@ -160,8 +160,8 @@ export default class Studao extends Component {
                         </div>
 
                         <div className="columns margin-top-50-mid">
-                            <div className="column is-2">
-                                <img src={process.env.PUBLIC_URL + '/images/about/design-skills-doodle-01.png' } alt="A doodle of design tool related icons (a Figma icon, a SketchApp icon, a pencil, a digital pen-tool) " />
+                            <div className="column is-2 text-center">
+                                <img src={process.env.PUBLIC_URL + '/images/about/design-skills-doodle-01.png' } alt="A doodle of design tool related icons (a Figma icon, a SketchApp icon, a pencil, a digital pen-tool)" style={{width:150}} />
                             </div>
                             <div className="column is-6">
                                 <h3>Design</h3>
@@ -179,8 +179,8 @@ export default class Studao extends Component {
                         </div>
 
                         <div className="columns margin-top-50-mid">
-                            <div className="column is-2">
-                                <img src={process.env.PUBLIC_URL + '/images/about/engineering-skills-doodle-01.png' } alt="A doodle of software engineering related icons (ReactJs icon, VueJS icon, an icon depicting coding, a finger tap)" />
+                            <div className="column is-2 text-center">
+                                <img src={process.env.PUBLIC_URL + '/images/about/engineering-skills-doodle-01.png' } alt="A doodle of software engineering related icons (ReactJs icon, VueJS icon, an icon depicting coding, a finger tap)" style={{width:150}} />
                             </div>
                             <div className="column is-6">
                                 <h3>Engineering</h3>
