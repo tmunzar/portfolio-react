@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import Annotation from './Annotation'
 import Loader from './Loader'
 import Tag from './Tag'
-import { Link } from "react-router-dom";
 import ContentModal from './ContentModal';
+import Intro from './Intro';
+import CaseStudies from './CaseStudies';
 import ImageModal from './ImageModal';
 
 export default class Home extends Component {
@@ -16,122 +17,10 @@ export default class Home extends Component {
         return (
             <div id="home-page">
                 <Loader />
-                <section id="intro">
-                    <div className="container">
-                        <div className="columns is-gapless is-vcentered">
-                            <div className="column is-two-thirds">
-                                <div className="columns">
-                                    <div className="column is-8 is-paddingless">
-                                        <h1 className="text-right">Hi I'm Talal and I like to</h1>
-                                    </div>
-                                    <div className="column is-4 is-paddingless">
-                                        <h1 className="primary">Research,<br/>Design &<br/>Develop</h1>
-                                        <h2>human-centered &<br/>joyful digital<br/>experiences.</h2>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className="column is-half relative" style={{marginTop:'auto'}}>
-                                <Annotation
-                                    style={{
-                                        top: -10,
-                                        right: 230,
-                                    }}
-                                    text="this is me"
-                                    textRotate="-20deg"
-                                    arrowTranslate={['7px', '12px']}
-                                    animOffset={-100}
-                                />
 
-                                {/* <Annotation
-                                    style={{
-                                        top:100,
-                                        right: 350,
-                                        width: 130,
-                                    }}
-                                    text="yes, this is an oversized soccer ball"
-                                    textRotate="-20deg"
-                                    arrowTranslate={['-50px', '6px']}
-                                    arrowRotate="42deg"
-                                    animDelay={500}
-                                /> */}
-                                <img 
-                                    src={process.env.PUBLIC_URL + '/images/me-01.png'}
-                                    alt="It's a me! Talal Munzar!"
-                                    style={{float:'right', width: 570}}
-                                />
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                <Intro />
 
-                <section id="case-studies" className="is-light-grey">
-                    <div className="container">
-                        <div className="columns">
-                            <div className="column">
-                                <h1>Case Studies</h1>
-                            </div>
-                        </div>
-
-                        <div className="case-study-list">
-
-                            <div className="case-study-listing">
-                                <div className="columns">
-                                    <div className="column is-two-fifths">
-                                        <img src={process.env.PUBLIC_URL + '/images/stardog-studio/screen-01.jpg'} alt="Screen of the workspace section of Stardog Studio, a Graph Database querying application." />
-                                    </div>
-                                    <div className="column">
-                                        <h2>
-                                            <Link to="/designing-ux-in-a-b2b-environment-for-a-technical-audience-stardog-studio">
-                                                Doing UX in a B2B environment for a technical audience.  
-                                            </Link>
-                                        </h2>
-                                        <p>
-                                        As a UX Intern at Stardog,  I was tasked to design the second iteration of Stardog Studio after its first release failed.
-                                        </p>
-                                        <div className="tags-list">
-                                            <Tag text="Research" icon="research" />
-                                            <Tag text="Design" icon="design" />
-                                            <Tag text="Prototype" icon="prototype" />
-                                            <Tag text="Develop" icon="develop" />
-                                        </div>
-                                        <Link className="button column is-4-desktop is-6-tablet" to="/designing-ux-in-a-b2b-environment-for-a-technical-audience-stardog-studio">
-                                            View Case Study
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="case-study-listing">
-                                <div className="columns">
-                                    <div className="column is-two-fifths">
-                                        <img src={process.env.PUBLIC_URL + '/images/studao/main-01.png'} alt="Mobile Screens for StuDAO, an online learning platform for Independent Filmmakers" />
-                                    </div>
-                                    <div className="column">
-                                        <h2>
-                                            <Link to="/designing-an-online-learning-platform-for-independent-filmmakers">
-                                                Designing an online learning platform for Independent Filmmakers 
-                                            </Link>
-                                        </h2>
-                                        <p>
-                                            For my Masters Human-Computer Interaction Capstone Project, I designed an online learning platform for an industry client that sought to introduce the concept of certification to the independent film industry.
-                                        </p>
-                                        <div className="tags-list">
-                                            <Tag text="Research" icon="research" />
-                                            <Tag text="Design" icon="design" />
-                                            <Tag text="Prototype" icon="prototype" />
-                                        </div>
-                                        <Link className="button column is-4-desktop is-6-tablet" to="/designing-an-online-learning-platform-for-independent-filmmakers">
-                                            View Case Study
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    
-                </section>
+                <CaseStudies />                
 
                 <section id="prev-work">
                     <div className="container">
