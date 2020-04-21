@@ -15,7 +15,7 @@ export default class Studao extends Component {
                         <div className="columns">
                             <div className="column is-half">
                                 <h1>
-                                    Designer, Developer and Researcher of digitial experiences
+                                    Designer, Developer and Researcher of digital experiences
                                 </h1>
                             </div>
                             <div className="column is-narrow">
