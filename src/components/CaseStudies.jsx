@@ -26,7 +26,7 @@ export default class Intro extends Component {
                                         </Link>
                                     </h2>
                                     <p>
-                                    As a UX Intern at Stardog,  I was tasked to design the second iteration of Stardog Studio after its first release failed.
+                                    As a UX Intern at Stardog, I was tasked to design the second iteration of Stardog Studio after its first release failed.
                                     </p>
                                     <div className="tags-list">
                                         <Tag text="Research" icon="research" />

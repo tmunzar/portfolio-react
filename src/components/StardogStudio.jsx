@@ -20,7 +20,7 @@ export default class StardogStudio extends Component {
                                     Doing UX in a B2B environment for a technical audience.
                                 </h1>
                                 <p>
-                                    As a UX Intern at Stardog, I was tasked with designing the second interation of Stardgo Studio after its first release failed
+                                    As a UX Intern at Stardog, I was tasked with designing the second interation of Stardog Studio after its first release failed.
                                 </p>
 
                                 <div className="details">
@@ -273,7 +273,7 @@ export default class StardogStudio extends Component {
                         <div className="columns is-centered">
                             <div className="column is-half">
                                 <h3 className="text-center">
-                                    Do we want a design with ‘Global’ Tabs, and the side navigation only changes the sidebar?
+                                    Do we want a design with ‘Global’ tabs, and the side navigation only changes the sidebar?
                                 </h3>
                             </div>
                         </div>

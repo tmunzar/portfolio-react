@@ -29,7 +29,7 @@ export default class Home extends Component {
                                 <h1>Selected Pre-UX Work</h1>
                                 <p>
                                 Before I set upon a dedicated UX career path, I co-ran a web design agency called <a href="http://jellyfish.com.pk" target="_blank" rel="noopener noreferrer">Jellyfish</a>. In addition to 
-                                dealing directly with clients, collaborating with graphic designers, and pitching projects on 30+ projects, I also fully stack developed them. Here are some examples:
+                                dealing directly with clients, collaborating with graphic designers, and pitching concepts on 30+ projects, I also fully stack developed them. Here are some examples:
                                 </p>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export default class Home extends Component {
                                             My firm was tasked to build-up Trav2trav, a social network from the ground up, which included all the branding, UX/UI design, and implementation.
                                         </p>
                                         <p>
-                                            <strong>Design Toolkit:</strong> Leanstack Canvas, Handrawn Sketching, Photoshop Designs, InVision Prototypes, Hi-Fi HTML Prototypes 
+                                            <strong>Design Toolkit:</strong> Leanstack Canvas, Hand drawn Sketching, Photoshop Designs, InVision Prototypes, Hi-Fi HTML Prototypes 
                                         </p>
                                         <p>
                                             <strong>Tech Stack:</strong> Laravel 4, SCSS,  jQuery, Elasticsearch,  Zurb Foundation
@@ -242,7 +242,7 @@ export default class Home extends Component {
                                             This website was developed in close collaboration with graphic designer <a href="https://www.samyaarif.com" target="_blank" rel="noopener noreferrer">Samya Arif</a>. It's a website that showcases the artists, venues, and projects of the 2017 Karachi Biennale Artist Festival.
                                         </p>
                                         <p>
-                                            <strong>Tech Stack:</strong> PHP, CockpitCMS (Headless CMS), Foundation 6
+                                            <strong>Tech Stack:</strong> CockpitCMS, Foundation 6
                                         </p>
                                         <div className="tags-list">
                                             <Tag text="Design" icon="design" />
@@ -371,7 +371,7 @@ export default class Home extends Component {
                                             E-Commerce for a Boutique Clothing Brand
                                         </h2>
                                         <p>
-                                            A user-centered process was used to design a boutique user experience for the Angry Ballerina website. I helped craft the experience that suited both the user-base and the client requirements.
+                                            A user-centered process was used to design a boutique user experience for the Angry Ballerina website. I helped craft an experience that suited both the user-base and the client requirements.
                                         </p>
                                         <p>
                                             <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
