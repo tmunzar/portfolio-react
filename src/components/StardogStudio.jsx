@@ -472,7 +472,7 @@ export default class StardogStudio extends Component {
                                     Validating the Designs
                                 </h2>
                                 <p>
-                                    I gained validation for which design direction to go to by user testing with both <u>internal stakeholders</u> and external users.
+                                    I gained validation for which design direction to proceed with by user testing with both <u>internal stakeholders</u> and external users.
                                 </p>
                                 <Annotation 
                                         text="internal stakeholders were users considering the circumstances" 

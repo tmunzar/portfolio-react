@@ -51,7 +51,7 @@ export default class Home extends Component {
                                             <strong>Design Toolkit:</strong> Leanstack Canvas, Hand drawn Sketching, Photoshop Designs, InVision Prototypes, Hi-Fi HTML Prototypes 
                                         </p>
                                         <p>
-                                            <strong>Tech Stack:</strong> Laravel 4, SCSS,  jQuery, Elasticsearch,  Zurb Foundation
+                                            <strong>Tech Stack:</strong> Laravel 4, SCSS, jQuery, Elasticsearch, Zurb Foundation
                                         </p>
                                         <div className="tags-list">
                                             <Tag text="Design" icon="design" />
@@ -75,7 +75,7 @@ export default class Home extends Component {
                                                         <strong>Design Toolkit:</strong> Leanstack Canvas, Hand drawn Sketching, Photoshop Designs, InVision Prototypes, Hi-Fi HTML Prototypes 
                                                     </p>
                                                     <p>
-                                                        <strong>Tech Stack:</strong> Laravel 4, SCSS,  jQuery, Elasticsearch,  Zurb Foundation
+                                                        <strong>Tech Stack:</strong> Laravel 4, SCSS, jQuery, Elasticsearch, Zurb Foundation
                                                     </p>
                                                     <div className="tags-list">
                                                         <Tag text="Design" icon="design" />
@@ -377,7 +377,7 @@ export default class Home extends Component {
                                             <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
                                         </p>
                                         <p>
-                                            <strong>Tech Stack:</strong> Sylius,  Foundation 6
+                                            <strong>Tech Stack:</strong> Sylius, Foundation 6
                                         </p>
                                         <div className="tags-list">
                                             <Tag text="Design" icon="design" />
@@ -403,7 +403,7 @@ export default class Home extends Component {
                                                         <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
                                                     </p>
                                                     <p>
-                                                        <strong>Tech Stack:</strong> Sylius,  Foundation 6
+                                                        <strong>Tech Stack:</strong> Sylius, Foundation 6
                                                     </p>
                                                     <div className="tags-list">
                                                         <Tag text="Design" icon="design" />
@@ -416,7 +416,7 @@ export default class Home extends Component {
                                                 <div className="column is-half">
                                                     <h2>Wireframe</h2>
                                                     <p>
-                                                    A user-centered process was used to design a boutique user experience for the Angry Ballerina website. I helped craft the experience that suited both the user-base and the client requirements.
+                                                        A user-centered process was used to design a boutique user experience for the Angry Ballerina website. I helped craft an experience that suited both the user-base and the client requirements.
                                                     </p>
                                                 </div>
                                             </div>
@@ -429,7 +429,7 @@ export default class Home extends Component {
                                                 <div className="column is-half">
                                                     <h2>Final Design</h2>
                                                     <p>
-                                                    After settling on a user experience that exhibited the boutique nature of the brand, we fleshed out the final design.
+                                                        After settling on a user experience that exhibited the boutique nature of the brand, we fleshed out the final design.
                                                     </p>
                                                 </div>
                                             </div>
@@ -461,10 +461,10 @@ export default class Home extends Component {
                                     </div>
                                     <div className="column is-three-fifths">
                                         <h2>
-                                            Filmmaking Brand Re-Design
+                                            Filmmaking Brand & Website Re-Design
                                         </h2>
                                         <p>
-                                        This filmmaking duo from Toronto needed to refresh their brand identity and to launch a new website for a major market push.
+                                            This filmmaking duo from Toronto needed to refresh their brand identity and to launch a new website for a major market push.
                                         </p>
                                         <p>
                                             <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
@@ -485,13 +485,13 @@ export default class Home extends Component {
                                                 </div>
                                                 <div className="column is-three-fifths">
                                                     <h2>
-                                                        Filmmaking Brand Re-Design
+                                                        Filmmaking Brand & Website Re-Design
                                                     </h2>
                                                     <p>
                                                         <strong>Client:</strong> Good Omen Films
                                                     </p>
                                                     <p>
-                                                        <strong>Duration:</strong> 1 Month
+                                                        <strong>Duration:</strong> 2 Months
                                                     </p>
                                                     <p>
                                                         <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
@@ -515,7 +515,7 @@ export default class Home extends Component {
                                                 <div className="column is-half">
                                                     <h2>Design</h2>
                                                     <p>
-                                                        Once we settled on a user experience that showcased the boutique nature of the brand, the final design was fleshed out.
+                                                        My co-founder Mustafa and I used client briefs to build a brand strategy and a website for Good Omen Films, working in tandem to deliver brand elements that aligned with the client's vision.
                                                     </p>
                                                 </div>
                                             </div>

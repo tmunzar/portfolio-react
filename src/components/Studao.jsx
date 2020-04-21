@@ -27,7 +27,7 @@ export default class Studao extends Component {
                                         <strong>Role:</strong> UX Researcher & Commiunications Lead
                                     </p>
                                     <p>
-                                        <strong>Collaborators:</strong> Capstone Team of five other UX researchers and designers, Independent Film Makers
+                                        <strong>Collaborators:</strong> Capstone Team of five other UX researchers and designers, Independent Filmmakers
                                     </p>
                                     <p>
                                         <strong>Duration:</strong> 9 Months (University of Maryland HCI-Masters Final Year Capstone Project)
@@ -151,7 +151,7 @@ export default class Studao extends Component {
                                     How to get access to a peoples’ business?
                                 </h2>
                                 <p>
-                                    The film industry is already a tight-knit peoples' business, with outsiders having a tough time access to. It was even harder to get access to a group of students. Despite our client providing us with some help, we were mostly left on our own to recruit the right kind of end-users for our research.
+                                    The film industry is already a tight-knit peoples' business, with outsiders having a tough time accessing it. It was even harder to get access to a group of students. Despite our client providing us with some help, we were mostly left on our own to recruit the right kind of end-users for our research.
                                 </p>
                                 <p>
                                 So we decided to explore users in contexts similar to what we were building. We decided to also reach out to people from other creative professions who needed to learn the business and technical skills to succeed in their industry.
@@ -319,7 +319,7 @@ export default class Studao extends Component {
                                 <h2>High Fidelity Prototype</h2>
                                 <p>
                                 Once we validated our design via the lo-fi prototype testing, we set out to make a final high fidelity design and produce an interactive online prototype as part of the final deliverables of the project.
-                                Below is a preview. You can also view the working prototype <a className="button" href="https://projects.invisionapp.com/share/SWS3X9ODK4E#/screens/364666372_Value_Proposition" target="_blank" rel="noopener noreferrer">here</a>.
+                                Below is a preview. You can also view the working prototype <a href="https://projects.invisionapp.com/share/SWS3X9ODK4E#/screens/364666372_Value_Proposition" target="_blank" rel="noopener noreferrer">here</a>.
                                 </p>
                             </div>
                         </div>
