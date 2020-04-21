@@ -20,7 +20,7 @@ export default class StardogStudio extends Component {
                                     Doing UX in a B2B environment for a technical audience.
                                 </h1>
                                 <p>
-                                As a UX Intern, at Stardog,  I was tasked to design the second iteration of Stardog Studio, following the failure of its first release.
+                                    As a UX Intern at Stardog, I was tasked with designing the second interation of Stardgo Studio after its first release failed
                                 </p>
 
                                 <div className="details">
@@ -31,7 +31,7 @@ export default class StardogStudio extends Component {
                                         <strong>Product:</strong> Stardog Studio
                                     </p>
                                     <p>
-                                        <strong>Collaborators:</strong> Customer Success, Sales Engineers, Frontend Engineers, Backend Engineers 
+                                        <strong>Collaborators:</strong> Customer Success, Sales Engineers, Front-End Engineers, Backend Engineers 
                                     </p>
                                     <p>
                                         <strong>Duration:</strong> 3 Months (Summer 2018 Internship)
@@ -75,7 +75,7 @@ export default class StardogStudio extends Component {
                                         Stardog Studio’s first release was met with negative user feedback as there was no user-centered process to settle on its design. The release featured a Jupyter-like notebook design, which as it turned out wasn’t how Stardog users preferred using Studio.
                                     </p>
                                     <p>
-                                        The challenge ahead was to ensure that the next iteration of Stardog Studio isn’t an end-user failure.
+                                        The challenge ahead was to ensure that the next iteration of Stardog Studio wasn’t an end-user failure.
                                     </p>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@ export default class StardogStudio extends Component {
                             </div>
                             <div className="column is-two-fifths">
                                 <p>
-                                    I built a working relationship with Customer Success to see if they could connect me to some end users. After constantly pestering them with requests to connect me with some.
+                                    I built a working relationship with Customer Success, and they connected me with some end users (albeit after some pestering on my part).
                                 </p>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ export default class StardogStudio extends Component {
                             </div>
                             <div className="column is-two-fifths relative">
                                 <p className="relative">
-                                    Finally, I managed to get a hold of 3 end-users, through sheer communication and perseverance. Stardog had working relations with a couple of partner organizations, who’s employees would use Stardog and/or Stardog Studio regularly.
+                                    Finally, I managed to get a hold of 3 end-users, through sheer communication and perseverance. Stardog had working relations with a couple of partner organizations, whose employees would use Stardog and/or Stardog Studio regularly.
                                 </p>
                                 <Annotation 
                                         text="I found end-users by just looking in the right place!"
@@ -487,7 +487,7 @@ export default class StardogStudio extends Component {
                                         arrowTranslate={['-90px','30px']}
                                     />
                                 <p>
-                                    There was an almost unanimous consensus, that the workspace section would be the only one with tabs. It was also clear that users preferred keeping the sidebars for each section.
+                                    There was an almost unanimous consensus that the workspace section would be the only one with tabs. It was also clear that users would prefer to keep the sidebars for each section.
                                 </p>
                                 <p>
                                     There was some positive feedback about the quick nature of being able to switch from a database to query writing in the global tabs version.
@@ -518,7 +518,7 @@ export default class StardogStudio extends Component {
                                     The Final Implementation
                                 </h2>
                                 <p>
-                                    I then worked closely with the front-end engineering team to implement these design decisions. I engineered in an ElectronJS/React/Redux environment and used BlueprintJS the core design system & SCSS to implement customized styling and developing additional reusable design components for the application.
+                                    I then worked closely with the front-end engineering team to implement these design decisions. I engineered in an ElectronJS/React/Redux environment, using BlueprintJS for the core design system & SCSS to implement customized styling, as well as developing additional reusable design components for the application.
                                 </p>
                             </div>
                             <div className="column">

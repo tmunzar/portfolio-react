@@ -87,7 +87,7 @@ export default class Home extends Component {
                                             </Link>
                                         </h2>
                                         <p>
-                                        As a UX Intern, at Stardog,  I was tasked to design the second iteration of Stardog Studio, following the failure of its first release.
+                                        As a UX Intern at Stardog,  I was tasked to design the second iteration of Stardog Studio after its first release failed.
                                         </p>
                                         <div className="tags-list">
                                             <Tag text="Research" icon="research" />
@@ -183,7 +183,7 @@ export default class Home extends Component {
                                                         <strong>Duration:</strong> 6 Months
                                                     </p>
                                                     <p>
-                                                        <strong>Design Toolkit:</strong> Leanstack Canvas, Handrawn Sketching, Photoshop Designs, InVision Prototypes, Hi-Fi HTML Prototypes 
+                                                        <strong>Design Toolkit:</strong> Leanstack Canvas, Hand drawn Sketching, Photoshop Designs, InVision Prototypes, Hi-Fi HTML Prototypes 
                                                     </p>
                                                     <p>
                                                         <strong>Tech Stack:</strong> Laravel 4, SCSS,  jQuery, Elasticsearch,  Zurb Foundation
@@ -309,7 +309,7 @@ export default class Home extends Component {
                                             <div className="columns margin-top-100-mid">
                                                 <div className="column is-half">
                                                     <h2>Designs</h2>
-                                                    <p>I worked closely with a graphic designer to craft the look of the website. I also took the lead of the project as its manager. I would lead the frequent meetings with the client to negotiate requirements and pitch design decisions.</p>
+                                                    <p>I worked closely with a graphic designer to craft the look of the website. I also took the lead of the project as its manager. I led the frequent meetings with the client to negotiate requirements and pitch design decisions.</p>
                                                 </div>
                                             </div>
                                             <div className="columns">
@@ -452,7 +452,7 @@ export default class Home extends Component {
                                             UI Design System & Style Guide for a Dashboard
                                         </h2>
                                         <p>
-                                            I worked closely with a graphic designer to prototype and implement reusable UI patterns for the management interface along with establishing astyle guide.
+                                            I worked closely with a graphic designer to prototype and implement reusable UI patterns for the management interface, along with establishing a style guide.
                                         </p>
                                         <p>
                                             <strong>Design Toolkit:</strong> Style Guide, Design System
@@ -482,7 +482,7 @@ export default class Home extends Component {
                                             E-Commerce for a Boutique Clothing Brand
                                         </h2>
                                         <p>
-                                            A user-centered process using wireframes was used to design a boutique user experience for the Angry Ballerina website. I helped craft the experience that suited both the user-base and the client requirements.
+                                            A user-centered process was used to design a boutique user experience for the Angry Ballerina website. I helped craft the experience that suited both the user-base and the client requirements.
                                         </p>
                                         <p>
                                             <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
@@ -527,7 +527,7 @@ export default class Home extends Component {
                                                 <div className="column is-half">
                                                     <h2>Wireframe</h2>
                                                     <p>
-                                                        A user-centered design process using wireframes was used to design a clothing boutique user experience for this website. I worked closely with a graphic designer to craft the experience that suited both the user-base and the client requirements.
+                                                    A user-centered process was used to design a boutique user experience for the Angry Ballerina website. I helped craft the experience that suited both the user-base and the client requirements.
                                                     </p>
                                                 </div>
                                             </div>
@@ -540,7 +540,7 @@ export default class Home extends Component {
                                                 <div className="column is-half">
                                                     <h2>Final Design</h2>
                                                     <p>
-                                                        Once we settled on a user experience that exhibited the boutique nature of the brand, the final design was fleshed out.
+                                                    After settling on a user experience that exhibited the boutique nature of the brand, we fleshed out the final design.
                                                     </p>
                                                 </div>
                                             </div>
@@ -575,7 +575,7 @@ export default class Home extends Component {
                                             Filmmaking Brand Re-Design
                                         </h2>
                                         <p>
-                                        This film baking duo from Toronto needed to refresh their brand identity and to launch a new website for a major market push.
+                                        This filmmaking duo from Toronto needed to refresh their brand identity and to launch a new website for a major market push.
                                         </p>
                                         <p>
                                             <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes
@@ -658,7 +658,7 @@ export default class Home extends Component {
                                             A Design Firm Website
                                         </h2>
                                         <p>
-                                            Mustafa Hussain, my co-founder with Jellyfish and probably the best designer I have ever worked with, came up with this brilliant branding and web-design for our firm. I made sure to execute it closely as Mustafa envisioned it.
+                                            Mustafa Hussain, my co-founder with Jellyfish and probably the best designer I have ever worked with, came up with this brilliant branding and web-design for our firm. I made sure to execute it as closely as Mustafa envisioned it.
                                         </p>
                                         <p>
                                             <strong>Design Toolkit:</strong> Wireframing, Hi-Fi Prototypes

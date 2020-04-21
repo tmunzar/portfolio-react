@@ -67,13 +67,12 @@ export default class Studao extends Component {
                                     textRotate="-10deg"
                                     style={{
                                         width: 330,
-                                        top:-90, 
-                                        left:-100,
+                                        bottom:-195, 
+                                        left:-110,
                                     }}
-                                    arrowRotate="95deg"
-                                    arrowTranslate={['-30px','260px']}
-                                    arrowFlip
-                                    animDelay={1000}
+                                    arrowRotate="-110deg"
+                                    arrowTranslate={['20px','340px']}
+                                    animDelay={700}
                                 />
                             </div>
                             <div className="column is-2">
@@ -84,7 +83,7 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered margin-top-100-mid">
                             <div className="column is-offset-3 is-5 relative">
                                 <p>
-                                    I have been creating and designing digital experiences in one form or another for the past 9 years. I can user research, user test, sketch, prototype, usability test and develop.
+                                    I have been creating and designing digital experiences in one form or another for the past 9 years. I can user research, user test, sketch, prototype, usability test, and develop.
                                 </p>
                             </div>
                             <div className="column is-3">
@@ -103,14 +102,14 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered">
                             <div className="column is-offset-1 is-5">
                                 <p>
-                                One of my biggest interests is teaching. I have had great success as a graduate teaching assistant for several programming courses at the University of Maryland. I even co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank" rel="noopener noreferrer">research paper</a> on teaching computer programming using block-based methods.
+                                One of my biggest interests is teaching. I have had great success as a graduate teaching assistant for several programming courses at the University of Maryland. I also co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank" rel="noopener noreferrer">research paper</a> on teaching computer programming using block-based methods.
                                 </p>
                             </div>
                             <div className="column is-2 relative">
                                 <img src={process.env.PUBLIC_URL + '/images/about/teaching-doodle-01.png'} alt="A sketch of a programming class in session"/>
                                 <Annotation
                                     className="is-primary" 
-                                    text="teaching is a very UX-based process, where you design and teach while concurrently incorporating feedback on the fly!"
+                                    text="teaching is a very UX-based process, where you design and teach while incorporating feedback on the fly!"
                                     textRotate="-15deg"
                                     arrowRotate="-90deg"
                                     arrowTranslate={['175px', '340px']}
@@ -150,9 +149,9 @@ export default class Studao extends Component {
                             <div className="column is-6">
                                 <h3>Research & Ideation</h3>
                                 <div className="tags-list">
-                                    <Tag text="User Intreviews"/>
+                                    <Tag text="User Interviews"/>
                                     <Tag text="Heuristic Evaluation"/>
-                                    <Tag text="Usabaility Testing"/>
+                                    <Tag text="Usability Testing"/>
                                     <Tag text="User Personas"/>
                                     <Tag text="Data Analysis"/>
                                     <Tag text="Design Sprints"/>

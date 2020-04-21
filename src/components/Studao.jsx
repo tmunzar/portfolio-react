@@ -75,7 +75,7 @@ export default class Studao extends Component {
                             </div>
                             <div className="column is-offset-1 is-4">
                                 <p>
-                                    A lack of any standardized learning program meant that aspiring filmmakers trying to get into the film industry were wholly unequipped to make a breakthrough or secure funding for the movies they wanted to make.
+                                    A lack of any standardized learning program meant that aspiring filmmakers trying to get into the film industry were wholly unequipped to make a breakthrough, or secure funding for the movies they wanted to make.
                                 </p>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered">
                             <div className="column is-offset-1 is-two-fifths">
                                 <p>
-                                    The average filmmaker trying to enter the industry lacks the fundamental business knowledge to prepare a film pitch, complete with budget line items to earn the trust of a potential investor.
+                                The average filmmaker trying to enter the industry lacks the fundamental business knowledge to prepare a film pitch complete with budget line items, and to earn the trust of a potential investor.
                                 </p>
                             </div>
                             <div className="column is-4 relative">
@@ -129,7 +129,7 @@ export default class Studao extends Component {
                                         What is their attitude about learning business when making a film?
                                     </li>
                                     <li>
-                                        How do they currently feel bout the quality of their film business education so far?
+                                        How do they currently feel about the quality of their film business education so far?
                                     </li>
                                     <li>
                                         How have they attempted to fill in these knowledge gaps throughout their career?
@@ -151,7 +151,7 @@ export default class Studao extends Component {
                                     How to get access to a peoples’ business?
                                 </h2>
                                 <p>
-                                The film industry is already a tight-knit people’s business, with outsiders having a tough time access to. It was even harder to get access to a group of students. Despite our client providing us with some help, we were mostly left on our own to recruit the right kind of end-users for our research.
+                                    The film industry is already a tight-knit peoples' business, with outsiders having a tough time access to. It was even harder to get access to a group of students. Despite our client providing us with some help, we were mostly left on our own to recruit the right kind of end-users for our research.
                                 </p>
                                 <p>
                                 So we decided to explore users in contexts similar to what we were building. We decided to also reach out to people from other creative professions who needed to learn the business and technical skills to succeed in their industry.
@@ -248,7 +248,7 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered">
                             <div className="is-offset-2 is-4">
                                 <p>
-                                    Since filmmaking is a very collaborative and hand-on exercise, the holy grail of learning for any filmmaker is to visit a film set and shadow a filmmaker.
+                                    Since filmmaking is a very collaborative and hands-on exercise, the holy grail of learning for any filmmaker is to visit a film set and shadow a filmmaker.
                                 </p>
                             </div>
                             <div className="column is-5">
@@ -292,7 +292,7 @@ export default class Studao extends Component {
                             <div className="column is-half">
                                 <h2>Lo-Fi Prototype</h2>
                                 <p>
-                                    We decided it best to do our Lo-Fi prototypes using Paper prototypes, so that we could make changes to our designs on-the-fly while user-testing.
+                                    We decided it best to do our Lo-Fi prototypes using Paper prototypes, so that we could make changes to our designs on the fly while user-testing.
                                 </p>
                             </div>
                         </div>
@@ -318,7 +318,7 @@ export default class Studao extends Component {
                             <div className="column is-half">
                                 <h2>High Fidelity Prototype</h2>
                                 <p>
-                                Once we validated our design via the lo-fi prototype testing, we set out to make a final high fidelity design and producing an interactive online prototype as part of the final deliverables of the project.
+                                Once we validated our design via the lo-fi prototype testing, we set out to make a final high fidelity design and produce an interactive online prototype as part of the final deliverables of the project.
                                 Below is a preview. You can also view the working prototype <a className="button" href="https://projects.invisionapp.com/share/SWS3X9ODK4E#/screens/364666372_Value_Proposition" target="_blank" rel="noopener noreferrer">here</a>.
                                 </p>
                             </div>
@@ -354,7 +354,7 @@ export default class Studao extends Component {
                             <div className="column is-half">
                                 <h2>Style Guide</h2>
                                 <p>
-                                    We delivered the final design complete with a Style Guide, so that the client may build any additional components on the top of the proposed application design in the future.
+                                    We delivered the final design complete with a Style Guide, so that the client could build any additional components on top of the proposed application design in the future.
                                 </p>
                             </div>
                         </div>    
