@@ -10,7 +10,7 @@ import ImageModal from './ImageModal';
 export default class Home extends Component {
 
     componentDidMount() {
-        document.title = 'Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+        document.title = 'Talal Munzar - Designer, Developer, and Researcher of Digital Experiences';
     }
 
     render() {
