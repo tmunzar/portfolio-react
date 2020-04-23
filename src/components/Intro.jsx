@@ -20,20 +20,37 @@ export default class Intro extends Component {
                                         alt="A sketched doodle representation of my research, design and development skills. It contains icons representing those skills."
                                         style={{width: 300, marginTop: 15}}
                                     />
-                                    <Annotation
+                                </Link>
+                                <Annotation
                                         style={{
-                                            top: 40,
-                                            right: -240,
-                                            width: 200,
+                                            top: -10,
+                                            right: -210,
+                                            width: 170,
                                         }}
-                                        text="some of things i can do!"
+                                        text="some of the things i can do!"
                                         textRotate="-12deg"
                                         arrowFlip
                                         arrowTranslate={['25px', '20px']}
                                         animOffset={-100}
+                                        animDelay={100}
                                     />
-                                </Link>
                             </div>
+                            {/* <div className="relative">
+                                <Annotation
+                                        style={{
+                                            bottom: -120,
+                                            left: 390,
+                                            width: 170,
+                                        }}
+                                        text="scroll down to see my work"
+                                        textRotate="-12deg"
+                                        arrowFlip
+                                        arrowRotate="85deg"
+                                        arrowTranslate={['-70px', '145px']}
+                                        animOffset={-100}
+                                        animDelay={200}
+                                    />
+                            </div> */}
                         </div>
                         <div className="column is-half is-paddingless relative" style={{marginTop:'auto'}}>
                             <Annotation
@@ -45,6 +62,7 @@ export default class Intro extends Component {
                                 textRotate="-20deg"
                                 arrowTranslate={['7px', '12px']}
                                 animOffset={-100}
+                                animDelay={400}
                             />
 
                             {/* <Annotation

@@ -83,7 +83,7 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered margin-top-100-mid">
                             <div className="column is-offset-3 is-5 relative">
                                 <p>
-                                    I have been creating and designing digital experiences in one form or another for the past 9 years. I can user research, user test, sketch, prototype, usability test, and develop.
+                                    I have been creating and designing digital experiences in one form or another for the past 9 years. I can do user research, sketch & draw, make wireframes, design, prototype, conduct usability tests, and develop.
                                 </p>
                             </div>
                             <div className="column is-3">
@@ -102,7 +102,7 @@ export default class Studao extends Component {
                         <div className="columns is-vcentered">
                             <div className="column is-offset-1 is-5">
                                 <p>
-                                One of my biggest interests is teaching. I have had great success as a graduate teaching assistant for several programming courses at the University of Maryland. I also co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank" rel="noopener noreferrer">research paper</a> on teaching computer programming using block-based methods.
+                                One of my biggest interests is teaching. I greatly enjoyed being a graduate teaching assistant for several programming courses at the University of Maryland. I also co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank" rel="noopener noreferrer">research paper</a> on teaching computer programming using block-based methods.
                                 </p>
                             </div>
                             <div className="column is-2 relative">
