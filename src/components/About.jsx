@@ -10,32 +10,32 @@ export default class Studao extends Component {
     render() {
         return(
             <article id="about">
-                <section className="is-light">
+                <header className="is-light">
                     <div className="container">
-                        <div className="columns">
-                            <div className="column is-half">
+                        <div className="columns is-mobile">
+                            <div className="column is-half-tablet is-5-mobile">
                                 <h1>
                                     Designer, Developer and Researcher of digital experiences
                                 </h1>
                             </div>
-                            <div className="column is-narrow">
+                            <div className="column is-half-tablet is-6-mobile is-narrow">
                             <img src={process.env.PUBLIC_URL + '/images/about/me-in-a-circle-01.png'} alt="Talal Munzar's face surrouned by sketch doodles relevant to the UI/UX field." style={{ width: 250}} />
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered">
-                            <div className="column is-offset-1 is-3 is-paddingless">
+                        <div className="columns is-vcentered is-mobile">
+                            <div className="column is-offset-1-tablet is-3-tablet is-8-mobile is-paddingless-tablet">
                                 <p>
                                     I'm originally from Islamabad ...
                                 </p>
                             </div>
-                            <div className="column is-2 is-paddingless">
+                            <div className="column is-2-tablet is-4-mobile is-paddingless">
                                 <img src={process.env.PUBLIC_URL + '/images/about/faisal-masjid-doodle-01.png'} alt="A sketch of the Faisal Mosque in Islamabad"/>
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered">
-                            <div className="column is-offset-4 is-3 relative is-paddingless">
+                        <div className="columns is-vcentered is-mobile">
+                            <div className="column is-offset-4-tablet is-3-tablet is-8-mobile relative is-paddingless-tablet">
                                 did my undergrad in Lahore...
                                 <Annotation
                                     className="is-primary" 
@@ -51,13 +51,13 @@ export default class Studao extends Component {
                                     animDelay={300}
                                 />
                             </div>
-                            <div className="column is-2 is-paddingless">
+                            <div className="column is-2-tablet is-4-mobile is-paddingless">
                                 <img src={process.env.PUBLIC_URL + '/images/about/minar-e-pakistan-doodle-01.png'} alt="A sketch of the Minar-e-Pakistan in Lahore"/>
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered">
-                            <div className="column is-offset-2 is-4 relative">
+                        <div className="columns is-vcentered is-mobile">
+                            <div className="column is-offset-2-tablet is-4-tablet is-8-mobile relative is-paddingless-tablet">
                                 <p>
                                     ... and now I'm in the DC Area.
                                 </p>
@@ -75,37 +75,35 @@ export default class Studao extends Component {
                                     animDelay={700}
                                 />
                             </div>
-                            <div className="column is-2">
+                            <div className="column is-2-tablet is-4-mobile is-paddingless">
                                 <img src={process.env.PUBLIC_URL + '/images/about/washington-monument-doodle-01.png'} alt="A sketch of the Faisal Mosque in Islamabad"/>
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered margin-top-100-mid">
-                            <div className="column is-offset-3 is-5 relative">
+                        <div className="columns is-vcentered margin-top-100-mid is-reverse-mobile margin-top-50-mobile">
+                            <div className="column is-offset-3 is-5">
                                 <p>
                                     I have been creating and designing digital experiences in one form or another for the past 9 years. I can do user research, sketch & draw, make wireframes, design, prototype, conduct usability tests, and develop.
                                 </p>
                             </div>
-                            <div className="column is-3">
+                            <div className="column is-3 is-5-mobile">
                                 <img src={process.env.PUBLIC_URL + '/images/about/prototype-doodle-01.png'} alt="A sketch of a prototype mobile application user-flow"/>
                             </div>
                         </div>
 
                     </div>
-                </section>
+                </header>
                 
 
                 <section className="is-light interests">
                     <div className="container">
-                        
-                        
-                        <div className="columns is-vcentered">
+                        <div className="columns is-vcentered is-reverse-mobile">
                             <div className="column is-offset-1 is-5">
                                 <p>
                                 One of my biggest interests is teaching. I greatly enjoyed being a graduate teaching assistant for several programming courses at the University of Maryland. I also co-authored a <a href="https://www.researchgate.net/publication/331296366_Block-based_Comprehension_Exploring_and_Explaining_Student_Outcomes_from_a_Read-only_Block-based_Exam" target="_blank" rel="noopener noreferrer">research paper</a> on teaching computer programming using block-based methods.
                                 </p>
                             </div>
-                            <div className="column is-2 relative">
+                            <div className="column is-2  is-5-mobile relative">
                                 <img src={process.env.PUBLIC_URL + '/images/about/teaching-doodle-01.png'} alt="A sketch of a programming class in session"/>
                                 <Annotation
                                     className="is-primary" 
@@ -123,8 +121,8 @@ export default class Studao extends Component {
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered margin-top-50-mid" style={{marginTop:200}}>
-                            <div className="column is-offset-1 is-3">
+                        <div className="columns is-vcentered margin-top-200-mid margin-top-50-mobile">
+                            <div className="column is-offset-1 is-3 is-10-mobile">
                                 <img src={process.env.PUBLIC_URL + '/images/about/social-network-doodle-01.png'} alt="A quick sketch of a social network"/>
                             </div>
                             <div className="column is-5">

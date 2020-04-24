@@ -9,7 +9,7 @@ export default class Intro extends Component {
                 <div className="container">
                     <div className="columns">
                         <div className="column">
-                            <h1>Case Studies</h1>
+                            <h1 className="section-heading">Case Studies</h1>
                         </div>
                     </div>
 

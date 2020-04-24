@@ -26,7 +26,7 @@ export default class Home extends Component {
                     <div className="container">
                         <div className="columns">
                             <div className="column is-half">
-                                <h1>Selected Pre-UX Work</h1>
+                                <h1 className="section-heading">Selected Pre-UX Work</h1>
                                 <p>
                                 Before I set upon a dedicated UX career path, I co-ran a web design agency called <a href="http://jellyfish.com.pk" target="_blank" rel="noopener noreferrer">Jellyfish</a>. In addition to 
                                 dealing directly with clients, collaborating with graphic designers, and pitching concepts on 30+ projects, I also fully stack developed them. Here are some examples:
@@ -37,7 +37,7 @@ export default class Home extends Component {
                         <div className="prev-work-list">
                             <div className="prev-work-listing">
                                 <div className="columns">
-                                    <div className="column is-one-fifth-desktop is-two-fifths-tablet image-holder">
+                                    <div className="column is-one-fifth-desktop is-two-fifths-tablet is-4-mobile image-holder">
                                         <img src={process.env.PUBLIC_URL + '/images/logos/trav2trav.png'} alt="trav2trav logo" />
                                     </div>
                                     <div className="column is-three-fifths">
@@ -60,7 +60,7 @@ export default class Home extends Component {
                                         </div>
                                         <ContentModal buttonText="View More Info">
                                             <div className="columns">
-                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet">
+                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet is-5-mobile">
                                                     <img src={process.env.PUBLIC_URL + '/images/logos/trav2trav.png'} alt="trav2trav logo" />
                                                 </div>
                                                 <div className="column">
@@ -127,6 +127,7 @@ export default class Home extends Component {
                                     </div>
                                     <Annotation
                                         text="This one's not online anymore, but I can show you a demo if you reach out to me!"
+                                        className="offset-margin-top-neg-20-tablet"
                                         style={{
                                             width: 250,
                                             right: 0,
@@ -141,7 +142,7 @@ export default class Home extends Component {
 
                             <div className="prev-work-listing">
                                 <div className="columns">
-                                    <div className="column is-offset-one-fifth-desktop is-one-fifth-desktop is-offset-0-tablet is-two-fifths-tablet image-holder">
+                                    <div className="column is-offset-one-fifth-desktop is-one-fifth-desktop is-offset-0-tablet is-two-fifths-tablet is-5-mobile image-holder">
                                         <img src={process.env.PUBLIC_URL + '/images/logos/rmi.svg'} alt="RMI Logo" style={{marginTop: -30}} />
                                     </div>
                                     <div className="column is-three-fifths">
@@ -164,7 +165,7 @@ export default class Home extends Component {
                                         </div>
                                         <ContentModal buttonText="View More Info">
                                             <div className="columns">
-                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet">
+                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet is-5-mobile">
                                                     <img src={process.env.PUBLIC_URL + '/images/logos/rmi.svg'} alt="RMI Logo" />
                                                 </div>
                                                 <div className="column is-three-fifths">
@@ -231,7 +232,7 @@ export default class Home extends Component {
 
                             <div className="prev-work-listing">
                                 <div className="columns">
-                                    <div className="column is-one-fifth-desktop is-two-fifths-tablet image-holder">
+                                    <div className="column is-one-fifth-desktop is-two-fifths-tablet is-5-mobile image-holder">
                                         <img src={process.env.PUBLIC_URL + '/images/logos/kb17.png'} alt="Karachi Bienalle 2017 logo" />
                                     </div>
                                     <div className="column is-three-fifths">
@@ -251,7 +252,7 @@ export default class Home extends Component {
                                         </div>
                                         <ContentModal buttonText="View More Info">
                                             <div className="columns">
-                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet image-holder">
+                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet is-5-mobile image-holder">
                                                     <img src={process.env.PUBLIC_URL + '/images/logos/kb17.png'} alt="Karachi Biennale 2017 logo" />
                                                 </div>
                                                 <div className="column is-three-fifths">
@@ -311,6 +312,7 @@ export default class Home extends Component {
                                         </ContentModal>
                                     </div>
                                     <Annotation
+                                        className="hide-for-tablet"
                                         text="One of the three collaborations I have done with Samya Arif. I highly recommend looking up her work!"
                                         style={{
                                             width: 310,
@@ -361,7 +363,7 @@ export default class Home extends Component {
                                 </div>
                             </div>
 
-                            <div className="prev-work-listing">
+                            <div className="prev-work-listing margin-top-50-mobile">
                                 <div className="columns">
                                     <div className="column is-one-fifth-desktop is-two-fifths-tablet image-holder">
                                         <img src={process.env.PUBLIC_URL + '/images/logos/angry-ballerina.svg'} alt="Angry Ballerina Logo" />
@@ -445,7 +447,7 @@ export default class Home extends Component {
                                         style={{
                                             width: 250,
                                             left: 0,
-                                            top: -150,
+                                            top: -85,
                                         }}
                                         arrowTranslate={['-20px', '20px']}
                                         arrowRotate='8deg'
@@ -456,7 +458,7 @@ export default class Home extends Component {
 
                             <div className="prev-work-listing">
                                 <div className="columns">
-                                    <div className="column is-offset-one-fifth-desktop is-one-fifth-desktop is-offset-0-tablet is-two-fifths-tablet image-holder">
+                                    <div className="column is-offset-one-fifth-desktop is-one-fifth-desktop is-offset-0-tablet is-two-fifths-tablet is-8-mobile image-holder">
                                         <img src={process.env.PUBLIC_URL + '/images/logos/good-omen-films.svg'} alt="Good Omen Films logo" />
                                     </div>
                                     <div className="column is-three-fifths">
@@ -480,7 +482,7 @@ export default class Home extends Component {
                                         
                                         <ContentModal buttonText="View More Info">
                                             <div className="columns">
-                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet">
+                                                <div className="column is-one-fifth-desktop is-two-fifths-tablet is-8-mobile">
                                                     <img src={process.env.PUBLIC_URL + '/images/logos/good-omen-films.svg'} alt="Good Omen Films logo" />
                                                 </div>
                                                 <div className="column is-three-fifths">
@@ -539,7 +541,7 @@ export default class Home extends Component {
 
                             <div className="prev-work-listing">
                                 <div className="columns">
-                                    <div className="column is-one-fifth-desktop is-two-fiths-tablet image-holder">
+                                    <div className="column is-one-fifth-desktop is-two-fiths-tablet is-8-mobile image-holder">
                                         <img src={process.env.PUBLIC_URL + '/images/logos/jellyfish.svg'} style={{width: '100%'}} alt="Jellyfish Logo"  />
                                     </div>
                                     <div className="column is-three-fifths">

@@ -9,11 +9,17 @@ export default class Intro extends Component {
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column is-two-thirds">
+                            <img 
+                                src={process.env.PUBLIC_URL + '/images/about/me-in-a-circle-01.png'} 
+                                alt="Talal Munzar's face surrouned by sketch doodles relevant to the UI/UX field." 
+                                style={{ width: 200, display: 'block', margin: '0 auto 50px'}}
+                                className="show-only-for-mobile"  
+                            />
                             <h1>Hi I'm Talal and I like to</h1>
                             <h1 className="primary">Research, Design & Develop</h1>
                             <h1>human-centered & joyful digital experiences.</h1>
 
-                            <div className="relative is-inline-block">
+                            <div className="relative is-inline-block hide-for-mobile">
                                 <Link to="/about">
                                     <img 
                                         src={process.env.PUBLIC_URL + '/images/home-doodle-01.png'}
@@ -23,7 +29,7 @@ export default class Intro extends Component {
                                 </Link>
                                 <Annotation
                                         style={{
-                                            top: -10,
+                                            top: 20,
                                             right: -210,
                                             width: 170,
                                         }}
@@ -35,24 +41,8 @@ export default class Intro extends Component {
                                         animDelay={100}
                                     />
                             </div>
-                            {/* <div className="relative">
-                                <Annotation
-                                        style={{
-                                            bottom: -120,
-                                            left: 390,
-                                            width: 170,
-                                        }}
-                                        text="scroll down to see my work"
-                                        textRotate="-12deg"
-                                        arrowFlip
-                                        arrowRotate="85deg"
-                                        arrowTranslate={['-70px', '145px']}
-                                        animOffset={-100}
-                                        animDelay={200}
-                                    />
-                            </div> */}
                         </div>
-                        <div className="column is-half is-paddingless relative" style={{marginTop:'auto'}}>
+                        <div className="column is-half is-paddingless relative hide-for-mobile" style={{marginTop:'auto'}}>
                             <Annotation
                                 style={{
                                     top: -10,
@@ -64,19 +54,6 @@ export default class Intro extends Component {
                                 animOffset={-100}
                                 animDelay={400}
                             />
-
-                            {/* <Annotation
-                                style={{
-                                    top:100,
-                                    right: 350,
-                                    width: 130,
-                                }}
-                                text="yes, this is an oversized soccer ball"
-                                textRotate="-20deg"
-                                arrowTranslate={['-50px', '6px']}
-                                arrowRotate="42deg"
-                                animDelay={500}
-                            /> */}
                             <img 
                                 src={process.env.PUBLIC_URL + '/images/me-01.png'}
                                 alt="It's a me! Talal Munzar!"

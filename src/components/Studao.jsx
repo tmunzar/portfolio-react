@@ -35,7 +35,7 @@ export default class Studao extends Component {
 
                                 </div>
 
-                                <div className="tags-list">
+                                <div className="tags-list is-hidden-mobile">
                                     <Tag text="Research" icon="research" />
                                     <Tag text="Design" icon="design" />
                                     <Tag text="Prototype" icon="prototype" />
@@ -60,7 +60,7 @@ export default class Studao extends Component {
                                     Our clients who had experience working in the film industry presented us with the thesis that the film industry lacks a certification program, unlike other industries such as law, accounting or medicine. What would precede a certification is a learning program, and the best way to deliver teachable content these days is online.
                                 </p>
                             </div>
-                            <div className="column is-offset-1 is-4">
+                            <div className="column is-offset-1 is-4 hide-for-mobile">
                                 <img 
                                     src={process.env.PUBLIC_URL + 'images/studao/certificate-doodle-01.png'} alt="A sketch about certifications in the medical, finance and the law industries." 
                                     />
@@ -80,7 +80,7 @@ export default class Studao extends Component {
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered">
+                        <div className="columns is-vcentered is-reverse-mobile">
                             <div className="column is-offset-1 is-two-fifths">
                                 <p>
                                 The average filmmaker trying to enter the industry lacks the fundamental business knowledge to prepare a film pitch complete with budget line items, and to earn the trust of a potential investor.
@@ -100,7 +100,7 @@ export default class Studao extends Component {
                                     }}
                                     arrowRotate="80deg"
                                     arrowTranslate={['-120px', '40px']}
-                                    className="is-primary"
+                                    className="is-primary offset-margin-right-neg-20-tablet"
                                 />
                             </div>
                         </div>
@@ -206,7 +206,7 @@ export default class Studao extends Component {
                                 <h2>Key User Interview Findings</h2>
                             </div>
                         </div>
-                        <div className="columns is-vcentered">
+                        <div className="columns is-vcentered is-reverse-mobile">
                             <div className="column is-offset-1 is-5">
                                 <p>
                                     Online learners are receptive to self-paced learning, especially if the content comes from a known and reputable source.
@@ -232,8 +232,8 @@ export default class Studao extends Component {
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered">
-                            <div className="column is-offset-2 is-3 relative">
+                        <div className="columns is-vcentered margin-top-50-mobile">
+                            <div className="column is-offset-2 is-3 is-8-mobile relative">
                                 <img 
                                     src={process.env.PUBLIC_URL + 'images/studao/biz-learning-doodle-01.png'} alt="A sketch a bored film student trying to learn business skills." 
                                 />
@@ -245,8 +245,8 @@ export default class Studao extends Component {
                             </div>
                         </div>
 
-                        <div className="columns is-vcentered">
-                            <div className="is-offset-2 is-4">
+                        <div className="columns is-vcentered is-reverse-mobile margin-top-50-mobile">
+                            <div className="column is-offset-2 is-4">
                                 <p>
                                     Since filmmaking is a very collaborative and hands-on exercise, the holy grail of learning for any filmmaker is to visit a film set and shadow a filmmaker.
                                 </p>

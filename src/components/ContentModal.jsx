@@ -22,7 +22,7 @@ export default class ContentModal extends Component {
     render() {
         return(
             <>
-                <button className="button column is-4-desktop is-6-tablet" onClick={this.openModal}>{this.props.buttonText}</button>
+                <button className="button column is-4-desktop is-6-tablet is-12-mobile" onClick={this.openModal}>{this.props.buttonText}</button>
                 <CSSTransition 
                         in={this.state.modalOpen}
                         timeout={300}

@@ -39,7 +39,7 @@ export default class StardogStudio extends Component {
 
                                 </div>
 
-                                <div className="tags-list">
+                                <div className="tags-list is-hidden-mobile">
                                     <Tag text="Research" icon="research" />
                                     <Tag text="Design" icon="design" />
                                     <Tag text="Prototype" icon="prototype" />
@@ -95,7 +95,7 @@ export default class StardogStudio extends Component {
                                             left: 30,
                                         }}
                                         arrowTranslate={['10px', '20px']}
-                                        className="is-primary"
+                                        className="is-primary offset-margin-top-neg-20-tablet"
                                     />
                                     <Annotation 
                                         text="this is where you can query the data from"
@@ -108,7 +108,7 @@ export default class StardogStudio extends Component {
                                         arrowTranslate={['50px', '40px']}
                                         arrowRotate='-40deg'
                                         animDelay={200}
-                                        className="is-primary"
+                                        className="is-primary offset-margin-top-neg-60-tablet"
                                     />
                                     <Annotation 
                                         text="this is where you can also query your data, but more easily (or at least it should be)" 
@@ -122,7 +122,7 @@ export default class StardogStudio extends Component {
                                         arrowTranslate={['-70px', '30px']}
                                         arrowRotate='20deg'
                                         animDelay={400}
-                                        className="is-primary"
+                                        className="is-primary offset-margin-top-neg-40-tablet offset-margin-right-neg-20-tablet"
                                     />
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ export default class StardogStudio extends Component {
                         </div>
 
                         <div className="columns">
-                            <div className="column is-offset-one-fifth is-one-fifth">
+                            <div className="column is-offset-one-fifth is-one-fifth is-7-mobile">
                                 <img 
                                     src={process.env.PUBLIC_URL + '/images/stardog-studio/cus-suc-doodle-01.png'}
                                     alt="A doodle of me interacting with customer success."
@@ -182,8 +182,8 @@ export default class StardogStudio extends Component {
                             </div>
                         </div>
 
-                        <div className="columns">
-                            <div className="column is-one-fifth">
+                        <div className="columns margin-top-50-mobile">
+                            <div className="column is-one-fifth is-8-mobile">
                                 <img 
                                     src={process.env.PUBLIC_URL + '/images/stardog-studio/sales-team-doodle-01.png'} style={{width:'80%'}} 
                                     alt="A doodle of the sales team."
@@ -196,8 +196,8 @@ export default class StardogStudio extends Component {
                             </div>
                         </div>
 
-                        <div className="columns">
-                            <div className="column is-offset-one-fifth is-one-fifth">
+                        <div className="columns margin-top-50-mobile">
+                            <div className="column is-offset-one-fifth is-one-fifth is-8-mobile">
                                 <img 
                                     src={process.env.PUBLIC_URL + '/images/stardog-studio/three-users-doodle-01.png'} 
                                     alt="A doodle of 3 Stardog Studio end-users."
@@ -217,7 +217,7 @@ export default class StardogStudio extends Component {
                                         }}
                                         arrowFlip
                                         arrowTranslate={['-110px','0']}
-                                        className="is-primary"
+                                        className="is-primary offset-margin-right-neg-40-tablet"
                                     />
                             </div>
                         </div>
@@ -288,7 +288,7 @@ export default class StardogStudio extends Component {
                                         top: -120,
                                         left: 70,
                                     }}
-                                    className="is-primary"
+                                    className="is-primary offset-margin-left-neg-100-tablet"
                                     arrowTranslate={['-20px','-30px']}
                                 />
                             </div>
@@ -376,7 +376,7 @@ export default class StardogStudio extends Component {
                                         top: -40,
                                         left: 220,
                                     }}
-                                    className="is-primary"
+                                    className="is-primary offset-margin-left-neg-60-tablet"
                                     arrowFlip
                                     arrowRotate="-45deg"
                                     arrowTranslate={['90px','20px']}
@@ -394,7 +394,7 @@ export default class StardogStudio extends Component {
                                         top: -70,
                                         left: 180,
                                     }}
-                                    className="is-primary"
+                                    className="is-primary offset-margin-left-neg-30-tablet offset-margin-top-neg-10-tablet"
                                     arrowRotate="80deg"
                                     arrowTranslate={['-50px','60px']}
                                     animDelay={600}
@@ -411,7 +411,7 @@ export default class StardogStudio extends Component {
                         </div>
                         <div className="columns is-centered">
                             <div className="column relative">
-                                <ImageModal src={process.env.PUBLIC_URL + '/images/stardog-studio/editor-only-tabs-editor-01.png'} alt="Editor Only Tabs - Editor View" />
+                                <ImageModal src={process.env.PUBLIC_URL + '/images/stardog-studio/editor-only-tabs-editor-02.png'} alt="Editor Only Tabs - Editor View" />
 
                                 <Annotation 
                                     text='just query tabs (again)!'
@@ -421,7 +421,7 @@ export default class StardogStudio extends Component {
                                         top: -105,
                                         left: 100,
                                     }}
-                                    className="is-primary"
+                                    className="is-primary offset-margin-left-neg-20-tablet"
                                     arrowRotate="15deg"
                                     arrowTranslate={['-30px','-10px']}
                                 />
@@ -437,7 +437,7 @@ export default class StardogStudio extends Component {
                                         top: -10,
                                         left: 100,
                                     }}
-                                    className="is-primary"
+                                    className="is-primary offset-margin-left-neg-40-tablet offset-margin-top-neg-20-tablet"
                                     arrowRotate="15deg"
                                     arrowTranslate={['-30px','-10px']}
                                     animDelay={300}
@@ -496,7 +496,7 @@ export default class StardogStudio extends Component {
                             <div className="column">
                                 <div className="columns is-centered is-multiline">
                                     <div className="column is-5">
-                                        <ImageModal src={process.env.PUBLIC_URL + '/images/stardog-studio/editor-only-tabs-editor-01.png'} alt="Global Tabs - Editor View" />
+                                        <ImageModal src={process.env.PUBLIC_URL + '/images/stardog-studio/editor-only-tabs-editor-02.png'} alt="Global Tabs - Editor View" />
                                     </div>
                                     <div className="column is-5">
                                         <ImageModal src={process.env.PUBLIC_URL + '/images/stardog-studio/editor-only-tabs-db-view-01.png'} alt="Editor Only Tabs - Database View" />

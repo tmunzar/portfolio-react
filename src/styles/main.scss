@@ -18,7 +18,7 @@ $color-light-grey: #F2F2F2;
 // 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
 $tablet: 768px !default;
 // // 960px container + 4rem
-// $desktop: 960px + (2 * $gap) !default;
+$desktop: 961px + (2 * $gap);
 // // 1152px container + 4rem
 // $widescreen: 1152px + (2 * $gap) !default;
 // $widescreen-enabled: true !default;
@@ -153,7 +153,6 @@ img {
   margin: 0 auto;
   width: 90%;
   position: relative;
-  // right: -60px; 
 }
 
 .columns {
@@ -185,6 +184,7 @@ img {
   position: absolute;
   color: black;
   text-align: left;
+  z-index: 1;
   &.is-primary {
     color: $color-primary-dark;
     svg.arrow {
@@ -257,7 +257,7 @@ img {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $tablet) {
     top: 0;
     left: 0;
     width: 100%;
@@ -269,7 +269,8 @@ img {
     box-shadow: 0 0 3px #ccc;
     .logo {
       margin-bottom: 0px;
-      margin-left: 10px;
+      margin-left: 12px;
+      width: 100px;
     }
     nav {
       display: flex;
@@ -356,6 +357,12 @@ article {
     margin-left: 0;
     top: 20px;
     left: 30px;
+    @media (max-width: $tablet) {
+      width: 100px;
+      height: 18px;
+      top: 15px;
+      left: 12px;
+    }
   }
 }
 
@@ -373,6 +380,10 @@ section {
   }
   &:last-of-type {
     padding-bottom: 250px;
+  }
+
+  @media (max-width: $tablet) {
+    padding: 100px 0;
   }
 }
 
@@ -414,6 +425,9 @@ section {
     background: url("../images/me-with-cup-01.png") bottom right no-repeat $color-background-light;
     h3 {
       margin: 0 0 10px;
+    }
+    @media (max-width: $tablet) {
+      padding-bottom: 400px;
     }
   }
 }
@@ -459,6 +473,10 @@ section {
 #footer {
   background-color: $color-light-grey;
   padding: 100px 0 20px;
+
+  @media (max-width: $tablet) {
+    padding: 30px 0 20px;
+  }
   .columns {
     margin: 0 auto 10px;
   }
@@ -480,6 +498,9 @@ section {
     nav {
       margin-top: 60px;
       text-align: center;
+      @media (max-width: $tablet) {
+        margin-top: 10px;
+      }
       a {
         display: flex;
         font-size: 22px;
@@ -532,11 +553,57 @@ section {
 
 
 
-@media (max-width: 768px) {
-  #annotation { display: none !important }
+@media (max-width: $tablet) {
+  h1 {
+    font-size: 30px;
+    &.section-heading {
+      border-bottom: 1px solid lighten(black, 75);
+      padding-bottom: 2px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+  h2 {
+    font-size: 25px; 
+  }
+  body {
+    font-size: 17px;
+  }
+  .is-reverse-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .margin-top-20-mobile {
+    margin-top: 20px;
+  }
+  .margin-top-50-mobile {
+    margin-top: 50px;
+  }
+  .is-hidden-mobile {
+    display: none;
+  }
+  article {
+    header {
+      padding: 100px 0;
+    }
+    section {
+      padding: 60px 0;
+    }
+  }
+  section:last-of-type {
+    padding-bottom: 60px;
+  }
+
+  #annotation { 
+    display: none !important 
+  }
   #home-page {
     section#intro {
       padding-top: 100px;
+      padding-bottom: 60px;
+      h1 {
+        font-size: 30px;
+      }
     }
   }
   .hide-for-mobile {
@@ -545,6 +612,9 @@ section {
 }
 
 @media (min-width: 769px) {
+  .is-paddingless-tablet {
+    padding: 0 !important;
+  }
   .container {
     max-width: 69%;
     right: -60px;
@@ -554,7 +624,11 @@ section {
       height: 450px;
     }
   }
+  .show-only-for-mobile {
+    display: none !important;
+  }
 }
+
 
 @media (min-width: 920px) {
   .container {
@@ -565,6 +639,9 @@ section {
     margin-top: 50px
   }
   .margin-top-100-mid {
+    margin-top: 100px
+  }
+  .margin-top-200-mid {
     margin-top: 100px
   }
   #home-page {
@@ -585,6 +662,31 @@ section {
     max-width: 750px;
     right: -85px;
   }
+}
+
+@media (max-width: $desktop) {
+  .hide-for-tablet {
+    display: none !important;
+  }
+  $sizes : 10, 20, 30 , 40, 60, 80, 100;
+  #annotation {
+    @each $size in $sizes {
+      &.offset-margin-top-neg-#{$size}-tablet {
+        margin-top: -#{$size}px;
+      }
+      &.offset-margin-right-neg-#{$size}-tablet {
+        margin-right: -#{$size}px;
+      }
+      &.offset-margin-left-neg-#{$size}-tablet {
+        margin-left: -#{$size}px;
+      }
+      &.offset-margin-bottom-neg-#{$size}-tablet {
+        margin-bottom: -#{$size}px;
+      }
+    }
+    
+  }
+  
 }
 
 @media (min-width: 1125px) {

@@ -7,13 +7,13 @@ export default class Footer extends Component {
             <div id="footer">
                 <div className="container">
                     <div className="columns heading is-centered">
-                        <div className="column is-one-third heading-column">
+                        <div className="column is-one-third heading-column hide-for-mobile">
                             <div className="line"></div>
                         </div>
                         <div className="column is-one-third heading-column">
-                            <h1>Find Me Here</h1>
+                            <h1 className="section-heading">Find Me Here</h1>
                         </div>
-                        <div className="column is-one-third heading-column">
+                        <div className="column is-one-third heading-column hide-for-mobile">
                             <div className="line"></div>
                         </div>
                     </div>
