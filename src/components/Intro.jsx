@@ -15,7 +15,7 @@ export default class Intro extends Component {
                                 style={{ width: 200, display: 'block', margin: '0 auto 50px'}}
                                 className="show-only-for-mobile"  
                             />
-                            <h1>Hi I'm Talal and I like to</h1>
+                            <h1>Hi, I'm Talal and I like to</h1>
                             <h1 className="primary">Research, Design & Develop</h1>
                             <h1>human-centered & joyful digital experiences.</h1>
 

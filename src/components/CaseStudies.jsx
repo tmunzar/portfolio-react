@@ -22,7 +22,7 @@ export default class Intro extends Component {
                                 <div className="column">
                                     <h2>
                                         <Link to="/designing-ux-in-a-b2b-environment-for-a-technical-audience-stardog-studio">
-                                            Doing UX in a B2B environment for a technical audience.  
+                                            Doing UX in a B2B environment for a technical audience 
                                         </Link>
                                     </h2>
                                     <p>

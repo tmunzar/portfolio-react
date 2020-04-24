@@ -17,7 +17,7 @@ export default class StardogStudio extends Component {
                         <div className="columns">
                             <div className="column is-two-fifths">
                                 <h1>
-                                    Doing UX in a B2B environment for a technical audience.
+                                    Doing UX in a B2B environment for a technical audience
                                 </h1>
                                 <p>
                                     As a UX Intern at Stardog, I was tasked with designing the second interation of Stardog Studio after its first release failed.
