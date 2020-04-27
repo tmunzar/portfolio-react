@@ -5,7 +5,7 @@ import Tag from './Tag'
 
 export default class Studao extends Component {
     componentDidMount() {
-        document.title = 'Designing an online learning platform for Independent Filmmakers - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+        document.title = 'Designing an online learning platform for Independent Filmmakers - Talal Munzar - Designer, Developer, and Researcher of Digital Experiences';
     }
 
     render() {

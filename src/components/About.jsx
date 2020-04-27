@@ -4,7 +4,7 @@ import Tag from './Tag'
 
 export default class Studao extends Component {
     componentDidMount() {
-        document.title = 'About Me - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+        document.title = 'About Me - Talal Munzar - Designer, Developer, and Researcher of Digital Experiences';
     }
 
     render() {

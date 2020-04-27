@@ -38,7 +38,7 @@ export default class MainNav extends Component {
                 </NavHashLink>
                 <nav>
                     <NavHashLink to="/#case-studies" exact smooth>Work</NavHashLink>
-                    <NavLink to="/about" exact>About</NavLink>
+                    <NavLink to="/about" exact={true}>About</NavLink>
                     <a href="https://www.linkedin.com/in/tmunzar/" target="_blank" rel="noopener noreferrer" className="hide-for-mobile">LinkedIn</a>
                     <a href="mailto:tmunzar@gmail.com" className="hide-for-mobile">Email</a>
                     <NavHashLink to="#footer" smooth className="show-only-for-mobile" activeClassName="">Contact</NavHashLink>

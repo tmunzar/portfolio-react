@@ -6,7 +6,7 @@ import Tag from './Tag'
 export default class StardogStudio extends Component {
 
     componentDidMount() {
-        document.title = 'Doing UX in a B2B environment for a technical audience - Talal Munzar - Designer, Developr, and Researcher of Digital Experiences';
+        document.title = 'Doing UX in a B2B environment for a technical audience - Talal Munzar - Designer, Developer, and Researcher of Digital Experiences';
     }
 
     render() {
