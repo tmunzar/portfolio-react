@@ -14,9 +14,11 @@ export default class Studao extends Component {
                     <div className="container">
                         <div className="columns is-mobile">
                             <div className="column is-half-tablet is-5-mobile">
-                                <h1>
-                                    Designer, Developer and Researcher of digital experiences
-                                </h1>
+                                <h1>Talal Munzar</h1>
+                                <h2>
+                                    Designer, Developer and Researcher<br/>
+                                    of digital experiences
+                                </h2>
                             </div>
                             <div className="column is-half-tablet is-6-mobile is-narrow">
                             <img src={process.env.PUBLIC_URL + '/images/about/me-in-a-circle-01.png'} alt="Talal Munzar's face surrouned by sketch doodles relevant to the UI/UX field." style={{ width: 250}} />
